@@ -43,7 +43,7 @@ public class Game extends JFrame implements ActionListener{
 
 	JLabel enterBet = new JLabel("Please enter a bet");
 
-		ImageIcon back=new ImageIcon("../../../../Resources/Cards/back.png");
+		ImageIcon back=new ImageIcon("Cards/back.png");
 
 	Card deck[] = new Card [52];
 	int deckCount = 0;
@@ -291,10 +291,10 @@ public class Game extends JFrame implements ActionListener{
 
 
 for (int i=0;i<13;i++){
-	deck[i]=new Card(Integer.toString(i+1), "Diamonds","../../../../Resources/Cards/Diamonds/"+(i+1)+".png");
-	deck[i+13]=new Card(Integer.toString(i+1), "Clubs","../../../../Resources/Cards/Clubs/"+(i+1)+".png");
-	deck[i+26]=new Card(Integer.toString(i+1), "Spades","../../../../Resources/Cards/Spades/"+(i+1)+".png");
-	deck[i+39]=new Card(Integer.toString(i+1), "Hearts","../../../../Resources/Cards/Hearts/"+(i+1)+".png");
+	deck[i]=new Card(Integer.toString(i+1), "Diamonds","Cards/Diamonds/"+(i+1)+".png");
+	deck[i+13]=new Card(Integer.toString(i+1), "Clubs","Cards/Clubs/"+(i+1)+".png");
+	deck[i+26]=new Card(Integer.toString(i+1), "Spades","Cards/Spades/"+(i+1)+".png");
+	deck[i+39]=new Card(Integer.toString(i+1), "Hearts","Cards/Hearts/"+(i+1)+".png");
 }
 }
 
